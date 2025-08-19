@@ -1,0 +1,4 @@
+Finland,37.27.80.61
+USA,5.161.147.78
+Germany-Falkenstein,188.40.19.139
+Germany-Nurnberg,49.13.170.13
