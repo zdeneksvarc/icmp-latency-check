@@ -1,6 +1,8 @@
 # ICMP Latency Check
 
-Simple Bash script to ping multiple targets and sort them by average latency. Good for choosing nearest datacenter by latency.
+A simple Bash script that pings multiple targets and sorts them by average latency. Useful for choosing the nearest datacenter based on latency.
+
+The IP addresses in the `examples` directory were taken from public sources (Shodan.io, RIPE NCC, web search).
 
 ## Usage
 
@@ -14,7 +16,7 @@ Simple Bash script to ping multiple targets and sort them by average latency. Go
 ## Example
 
 ```bash
-$ ./ping.sh upcloud-2025-08.txt
+$ ./ping.sh examples/upcloud.txt
 ...
 =================== SUMMARY ===================
 Target               IP               Avg in ms
