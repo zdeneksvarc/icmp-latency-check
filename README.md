@@ -18,6 +18,9 @@ The IP addresses in the `examples` directory were taken from public sources (Sho
 ```bash
 $ ./ping.sh
 ...
+=================== SUMMARY ==================
+Target               IP               Avg (ms)
+----------------------------------------------
 localhost            127.1            0.047
 google.com           google.com       6.684
 dns-opendns          208.67.222.222   7.810
