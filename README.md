@@ -18,12 +18,10 @@ The IP addresses in the `examples` directory were taken from public sources (Sho
 ```bash
 $ ./ping.sh
 ...
-=================== SUMMARY ==================
-Target               IP               Avg (ms)
-----------------------------------------------
-localhost            127.1            0.055
-google.com           google.com       7.069
-dns-cloudflare       1.1              7.803
+localhost            127.1            0.047
+google.com           google.com       6.684
+dns-opendns          208.67.222.222   7.810
+dns-cloudflare       1.1              7.986
 dns-quad9            9.9.9.9          11.116
 
 $ ./ping.sh examples/upcloud.txt

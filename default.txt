@@ -1,4 +1,5 @@
 localhost,127.1
 dns-cloudflare,1.1
 dns-quad9,9.9.9.9
+dns-opendns,208.67.222.222
 google.com,google.com
