@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # --- Defaults ---
-DEFAULT_COUNT=5
+DEFAULT_COUNT=3
 DEFAULT_FILE="default.txt"
 
 PING_COUNT="$DEFAULT_COUNT"
@@ -83,9 +83,9 @@ done < "$TARGET_FILE"
 
 # --- Summary to stdout only ---
 echo
-echo "=================== SUMMARY ==================="
-printf "%-20s %-16s %s\n" "Target" "IP" "Avg in ms"
-echo "-----------------------------------------------"
+echo "=================== SUMMARY =================="
+printf "%-20s %-16s %s\n" "Target" "IP" "Avg (ms)"
+echo "----------------------------------------------"
 
 LC_ALL=C printf "%s\n" "${results[@]}" \
   | sort -t'|' -k1,1n \

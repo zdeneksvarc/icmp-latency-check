@@ -1,2 +1,4 @@
-localhost,127.0.0.1
-dns,1.1
+localhost,127.1
+dns-cloudflare,1.1
+dns-quad9,9.9.9.9
+google.com,google.com
