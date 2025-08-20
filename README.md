@@ -10,8 +10,8 @@ The IP addresses in the `examples` directory were taken from public sources (Sho
 |-----------------------------|----------------------------|
 | `./ping.sh`                | 3 pings, use `default.txt` |
 | `./ping.sh 10`             | 10 pings, use `default.txt`|
-| `./ping.sh /examples/upcloud.txt`    | 3 pings, use `uplcoud.txt` |
-| `./ping.sh 10 /examples/hetzner.txt` | 10 pings, use `hetzner.txt`|
+| `./ping.sh examples/upcloud.txt`    | 3 pings, use `uplcoud.txt` |
+| `./ping.sh 10 examples/hetzner.txt` | 10 pings, use `hetzner.txt`|
 
 ## Example
 
